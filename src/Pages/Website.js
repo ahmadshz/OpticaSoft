@@ -6,7 +6,7 @@ import AboutMe from './AboutMe'
 
 const Website = () => {
     return (
-        <div>
+        <div className='flex flex-col gap-4'>
             <Hero />
             <AboutMe/>
             <Projects />
