@@ -29,14 +29,12 @@ const NavbarMobile = ({ handleShow }) => {
           Home
         </Link>
         <Link to={'/about'} onClick={close} className="text-lg w-full pl-2 border-b-2 border-[#e2e0e0] font-semibold cursor-pointer hover:text-blue-400">
-          About
+          About Us
         </Link>
         <Link to={'/projects'} onClick={close} className="text-lg w-full pl-2 border-b-2 border-[#e2e0e0] font-semibold cursor-pointer hover:text-blue-400">
           Projects
         </Link>
-        <Link to={'/skills'} onClick={close} className="text-lg w-full pl-2 border-b-2 border-[#e2e0e0] font-semibold cursor-pointer hover:text-blue-400">
-          Skills
-        </Link>
+       
         <Link to={'/contact'} onClick={close} className="text-lg w-full pl-2 border-b-2 border-[#e2e0e0] font-semibold cursor-pointer hover:text-blue-400">
           Contact
         </Link>

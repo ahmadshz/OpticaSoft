@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen w-full px-8 sm:px-24 xl:px-80 pt-32 mb-32">
+    <section className="min-h-screen w-full container pt-32 mb-32">
       <h1 className="text-center text-5xl font-bold">Contact</h1>
       <p className="text-center text-[#6B7280] text-lg mt-6 mb-12">
         Feel free to reach out for more information or collaborations!

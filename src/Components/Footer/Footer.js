@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className=' flex justify-center  flex-col items-center  gap-10 text-3xl'>
             <div className='h-[2px] rounded w-3/4 bg-[#6B7280] dark:bg-[#1E3851] mb-20' />
-            <h1 className='text-4xl'>Follow Me</h1>
+            <h1 className='text-4xl'>Follow Us</h1>
             <div className='flex justify-center items-center gap-4'>
                 <a href='https://portfolio-ahmdshmeit.netlify.app' className='p-2 bg-[#eeeeee] dark:bg-[#1E3851] rounded-lg hover:text-blue-500 text-[#9CA3AF] duration-500'>
                     <TfiWorld />
