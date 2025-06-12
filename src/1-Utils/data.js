@@ -20,26 +20,7 @@ export const MyProject = [
     imgPath: bite,
     link: 'https://gega-bite.vercel.app',
   },
-  {
-    id: 1,
-    name: 'Gega Bite',
-    desc: " We created a fast, elegant restaurant website that helps customers find and order their favorite meals in seconds. From browsing delicious food categories to viewing detailed menus and placing orders with location tracking — everything is smooth, mobile-friendly, and built to drive real customer engagement. Your restaurant, one click away.",
-    imgPath: bite,
-    link: 'https://gega-bite.vercel.app',
-  },
-  {
-    id: 1,
-    name: 'Gega Bite',
-    desc: " We created a fast, elegant restaurant website that helps customers find and order their favorite meals in seconds. From browsing delicious food categories to viewing detailed menus and placing orders with location tracking — everything is smooth, mobile-friendly, and built to drive real customer engagement. Your restaurant, one click away.",
-    imgPath: bite,
-    link: 'https://gega-bite.vercel.app',
-  },
-  {
-    id: 1,
-    name: 'Gega Bite',
-    desc: " We created a fast, elegant restaurant website that helps customers find and order their favorite meals in seconds. From browsing delicious food categories to viewing detailed menus and placing orders with location tracking — everything is smooth, mobile-friendly, and built to drive real customer engagement. Your restaurant, one click away.",
-    imgPath: bite,
-    link: 'https://gega-bite.vercel.app',
-  },
+ 
+ 
   
 ];
