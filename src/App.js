@@ -48,7 +48,7 @@ function App() {
                    ${showArrow ? 'opacity-100' : 'opacity-0'}`}
 
                     style={{
-                      boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
+                      boxShadow: '0 0 16px rgba(0, 0, 0, 0.2)',
                     }}
       >
         <RiArrowUpSLine className='-rotate-45 text-[20px] lg:text-[30px] '   onClick={handlegoToTop} />
