@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen w-full container pt-[110px] lg:pt-40 mb-32">
+    <section className="min-h-screen w-full container pt-32 mb-32">
       <motion.h1
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="text-lg sm:text-xl lg:text-2xl font-bold leading-tight text-[#6B7280] mt-2  mb-6 lg:mb-12">
+        className="text-lg sm:text-xl lg:text-2xl font-bold leading-tight text-[#6B7280] mt-2 mb-12">
         Feel free to reach out for more information or collaborations!
       </motion.p>
 

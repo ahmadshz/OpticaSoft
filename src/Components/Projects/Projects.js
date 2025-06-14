@@ -7,7 +7,7 @@ const Projects = () => {
 
 
   return (
-    <div className="min-h-[80vh] w-full container pt-[110px] lg:pt-40 mb-20">
+    <div className="min-h-[80vh] w-full container pt-32 mb-20">
       <motion.h1
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}

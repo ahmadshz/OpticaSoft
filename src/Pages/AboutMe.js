@@ -69,7 +69,7 @@ const AboutMe = () => {
     return (
         <div className='w-full min-h-screen flex justify-center items-center bg-white dark:bg-[#0D2438]'>
            
-        <div className='min-h-screen w-full container pb-20 pt-[110px] lg:pt-40 gap-10 flex flex-col'>
+        <div className='min-h-screen w-full container pb-20 pt-32 gap-10 flex flex-col'>
                 {/* Introduction Section */}
                 <div className='flex flex-col gap-2'>
                     <motion.h1 
