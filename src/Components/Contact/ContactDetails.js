@@ -11,7 +11,7 @@ const ContactDetails = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className='w-full lg:w-1/2   order-1 lg:order-2 pt-8'>
-            <h1 className='text-2xl'>Contact Details</h1>
+            <h1 className='text-2xl text-[#1E3851]'>Contact Details</h1>
             <div className='flex items-center gap-4 mt-4 text-[#99a0ae]'>
                 <SlLocationPin size={28} />
                 <span className='text-lg'>Tripoli, North Lebanon</span>

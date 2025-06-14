@@ -7,8 +7,12 @@ const Projects = () => {
 
 
   return (
-    <div className="min-h-screen w-full container pt-20 mb-20">
-      <h1 className=" text-3xl lg:text-5xl  font-bold leading-tight text-[#1E3851]">Our Projects</h1>
+    <div className="min-h-[80vh] w-full container pt-[110px] lg:pt-40 mb-20">
+      <motion.h1
+        initial={{ opacity: 0, y: 25 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className=" text-3xl lg:text-5xl  font-bold leading-tight text-[#1E3851]">Our Projects</motion.h1>
       <motion.div
 
         className="mt-5 lg:mt-10 flex flex-wrap justify-center lg:justify-start  gap-10"

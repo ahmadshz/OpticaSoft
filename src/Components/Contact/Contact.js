@@ -38,19 +38,27 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen w-full container pt-32 mb-32">
-      <h1 className="text-center text-5xl font-bold">Contact</h1>
-      <p className="text-center text-[#6B7280] text-lg mt-6 mb-12">
+    <section className="min-h-screen w-full container pt-[110px] lg:pt-40 mb-32">
+      <motion.h1
+        initial={{ opacity: 0, y: 25 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className="text-3xl lg:text-5xl  font-bold leading-tight text-[#1E3851]">Contact</motion.h1>
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className="text-lg sm:text-xl lg:text-2xl font-bold leading-tight text-[#6B7280] mt-2  mb-6 lg:mb-12">
         Feel free to reach out for more information or collaborations!
-      </p>
+      </motion.p>
 
-      <div className="flex flex-wrap lg:flex-nowrap justify-center gap-10">
+      <div className="flex flex-wrap lg:flex-nowrap  gap-10">
         <motion.form
           onSubmit={handleSubmit}
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-3/6 max-w-md p-8 rounded-xl shadow-lg dark:bg-[#102D44] bg-white text-gray-700 dark:text-white order-2 lg:order-1"
+          className="w-full lg:w-3/5 xl:w-2/5 p-8 rounded-xl shadow-lg dark:bg-[#102D44] bg-white text-gray-700 dark:text-white order-2 lg:order-1"
         >
           <h2 className="text-2xl font-semibold mb-6">Contact Form</h2>
 
