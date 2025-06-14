@@ -51,7 +51,7 @@ function App() {
                       boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)',
                     }}
       >
-        <RiArrowUpSLine className='-rotate-45 text-[20px] '   onClick={handlegoToTop} />
+        <RiArrowUpSLine className='-rotate-45 text-[20px] lg:text-[30px] '   onClick={handlegoToTop} />
       </div>
     </div>
   );
