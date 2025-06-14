@@ -7,14 +7,11 @@ const Projects = () => {
 
 
   return (
-    <div className="min-h-screen w-full container pt-32 mb-20">
-      <h1 className="text-center text-5xl">My Projects</h1>
-
-
-
+    <div className="min-h-screen w-full container pt-20 mb-20">
+      <h1 className=" text-3xl lg:text-5xl  font-bold leading-tight text-[#1E3851]">Our Projects</h1>
       <motion.div
 
-        className="mt-20 flex flex-wrap justify-center gap-10"
+        className="mt-5 lg:mt-10 flex flex-wrap justify-center lg:justify-start  gap-10"
       >
         <AnimatePresence mode="wait">
           {MyProject.map((project, index) => (

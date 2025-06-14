@@ -181,7 +181,7 @@ const AboutMe = () => {
                 </div>
 
                 {/* Contact CTA Section */}
-                <div className='mt-12 lg:mt-24 flex flex-col gap-2'>
+                <div className='  flex flex-col gap-2'>
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}

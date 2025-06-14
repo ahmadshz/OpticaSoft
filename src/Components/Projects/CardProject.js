@@ -9,7 +9,7 @@ const CardProject = ({ name, desc, imgPath, link, github, animationKey }) => {
       initial={{ opacity: 0, y: 20 }} 
       animate={{ opacity: 1, y: 0 }} 
       transition={{ duration: 0.5, delay: animationKey * 0.2 }} 
-      className="bg-[#f2f3f5]  shadow-lg w-[305px] h-[450px] hover:scale-105 duration-500"
+      className="bg-[#f2f3f5]  shadow-lg  w-full lg:w-[305px] h-[450px] hover:scale-105 duration-500"
     >
       <img
         className="w-full h-[40%] mx-auto rounded-t-md "
