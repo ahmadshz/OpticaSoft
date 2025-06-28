@@ -24,12 +24,18 @@ const Contact = () => {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const response = await axios.post('https://formspree.io/f/xwpebkdg', formData);
+      const response = await axios.post('https://formspree.io/f/xnnvloae', formData);
       if (response.status === 200) {
         setFormData({ name: '', email: '', subject: '', message: '' });
         setStatus('Message sent successfully!');
+        setTimeout(() => {
+          setStatus('');
+        }, 8000);
       } else {
         setStatus('Failed to send message. Please try again.');
+        setTimeout(() => {
+          setStatus('');
+        }, 8000);
       }
     } catch (error) {
       setStatus('Error sending message. Please check your connection.');
@@ -88,6 +94,7 @@ const Contact = () => {
             placeholder="Your Email"
             className="w-full p-3 mb-5 rounded-md shadow-lg border dark:border-[#0c2233] dark:bg-[#1E3851] focus:outline-blue-500"
             required
+
           />
 
           <label htmlFor="subject" className="block mb-1 font-medium">
