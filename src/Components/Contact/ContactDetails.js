@@ -22,7 +22,7 @@ const ContactDetails = () => {
                     </div>
                     <div>
                         <h3 className='text-sm font-medium text-gray-500'>Email</h3>
-                        <p className='text-lg text-[#1E3851]'>opticasoft@gmail.com</p>
+                        <p className='text-lg text-[#1E3851]'>opticasoft5@gmail.com</p>
                     </div>
                 </div>
 
